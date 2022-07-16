@@ -1,0 +1,979 @@
+/* acá css mobile----------------------
+---------------------------------------
+---------------------------------------*/
+
+@media only screen and (max-width: 699px) {
+    body {
+      background-color: white;
+      margin: 0;
+    }
+    main, nav, header, footer{display:block;}
+    header{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        font-size: 20px;
+        color: red;
+        text-align: center;
+    /*border: 5px dashed red;*/
+    }
+    div h1{
+        padding-top: 20px;
+        font-size: 50px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-shadow: 5px 5px 10px black;
+        
+        
+    }
+    main {
+        /*border: solid 1px red;*/
+        font-family: 'Roboto', sans-serif;
+        padding: 15px;
+    }
+    nav ul li {
+        /* background-color: rgb(54, 42, 42);*/
+         /*display: inline;*/
+         list-style-type: none;
+         color: orangered;
+         padding-bottom: 10px;
+         font-family: 'Roboto', sans-serif;
+
+        
+     }
+     nav ul li a{
+        display:inline-block;
+        color: orangered;
+        text-decoration: none;
+        padding-bottom: 5px;
+        /*margin-left: 5px; *//*para que queden a la misma distancia en todos los html*/
+    }
+    nav ul li a:hover {
+        border-bottom: 2px solid rgb(125, 6, 6);
+    }
+    
+    .it {
+        background-color: rgb(125, 6, 6);
+        color: white;
+        padding: 10px; /*para que el recuadro del html activo sea más grande*/
+    
+    }
+    ul li a {
+        text-decoration: none;
+        color: rgb(125, 85, 11);
+    }
+    ul li {
+        list-style-type: none;
+    }
+
+    .infolist {
+        color:orangered;}
+    
+    
+
+    h2 {
+        text-align: center;
+    }
+    img {
+        display:block;
+        margin: 0 auto;
+        
+    }
+    footer ul {
+        margin:0;
+        background-color: orange;
+    }
+    footer ul li {
+        margin: 0;
+        width: 100%;
+        
+        list-style-type: none;
+        
+    }
+    ol {
+        list-style-type: decimal;
+    }
+    ol li a {
+        text-decoration: none;
+        color: rgb(125, 85, 11);
+    }
+    footer {
+        width: 100%;
+        margin: 0;
+        padding: 25px;
+        background-color: orange;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+
+       
+    }
+   
+    
+    div ul li a {
+        text-decoration: none;
+    }
+    em a {
+        text-decoration: none;
+        color:rgb(125, 6, 6);
+        font-weight: bold;
+    }
+    #comida ul li {
+        list-style-type: disc;
+        color: rgb(125, 85, 11);
+    }
+    #comida ul li span {
+        font-weight: bold;
+    }
+#grafiteros dt {
+    font-weight: bold;
+}
+h2, h3, h4 {
+    text-align: center;
+    color: rgb(125, 6, 6);
+}
+.nodisplay {
+    display:none;
+}
+
+/*manipular tamaño de los inputs*/
+input {
+    color:rgb(125, 6, 6);
+    display: block;
+}
+form p {
+    font-weight: bold;
+}
+nav + a {
+    margin: 5px 15px;
+}
+.boton {
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 80px;
+    height:40px;
+    font-family: 'Roboto', sans-serif;
+    border:rgb(125, 6, 6) 1px solid;
+  }
+#redesmobile {
+    text-align: center;
+    margin: 30px auto 60px auto;
+}
+  #redesmobile #ins a{
+    display: inline-block;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    /*margin-bottom: 10px;*/
+    
+  
+   
+}
+#redesmobile #you a{
+    display: inline-block;
+    background-image: url(../img/youtube.png);
+    background-repeat: no-repeat;
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    /*margin-bottom: 10px;*/
+
+    
+}
+#redesmobile #twi a{
+    display: inline-block;
+    background-image: url(../img/gorjeo.png);
+    background-repeat: no-repeat; 
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    /*margin-bottom: 10px;*/
+
+  
+
+}
+#redesmobile ul li {
+    display:inline;
+}
+#redesmobile {
+    margin: 0;
+    padding: 0;
+}
+img, iframe {
+    border-radius: 30px;
+}
+
+
+}
+
+/*acá css para tablet----------------------
+--------------------------------------------------------
+---------------------------------------------------------*/
+
+@media screen and (min-width: 700px) and (max-width: 1120px) {
+
+    body {
+        background-color: white;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+      }
+      main, nav, header, footer{display:block;}
+      header{
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background-image: url("../img/header_city.jpg");
+        background-color: orange;
+        background-repeat: no-repeat;
+        background-position-x: right;
+        font-size: 20px;
+        color: orange;
+        text-align: center;
+    }
+    div h1{
+        padding-top: 20px;
+        font-size: 60px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        text-shadow: 5px 5px 10px black;
+        
+        
+    }
+    main {
+        
+        font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+    }
+    main > div {
+        width: 700px;
+        background-color: white;
+        margin: 0 auto;
+        padding: 40px;
+        line-height: 1.5;
+    
+    
+    }
+    #contenedor_columnas {
+        display: inline-block;
+        
+    }
+    .columna_izq, .columna_der {
+        display:inline-block;
+        width: 600px;
+        text-align: center;
+        
+    
+    }
+    #contenedor {
+        margin: 0 auto;
+    }
+  
+    .nodisplay {
+        display:none;
+    }
+   
+nav ul li {
+    /* background-color: rgb(54, 42, 42);*/
+     display: inline;
+     list-style-type: none;
+     margin-top:110px;
+     color: orangered;
+     padding-left: 30px;
+     padding-right: 30px;
+     border-right: solid 2px orangered;
+     border-radius: 25% 10%;
+     
+ }
+ 
+ nav ul li a{
+     color: orangered;
+     text-decoration: none;
+     margin-left: 5px; /*para que queden a la misma distancia en todos los html*/
+ }
+ nav ul li a:hover {
+     border-bottom: 2px solid rgb(125, 6, 6);
+ }
+ nav ul li a:active {
+     background-color: black;
+     color: white;
+ }
+ .it {
+     background-color: rgb(125, 6, 6);
+     color: white;
+     padding: 10px; /*para que el recuadro del html activo sea más grande*/
+ 
+ }
+ 
+ol  {
+    display: inline-block;
+    padding: 20px 400px;
+    margin: 10px 40px ;
+    text-align: center;
+}
+.ancla a:hover {
+background-color: rgb(125, 6, 6);
+color: white;
+}
+ul {
+    text-align:center;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+
+}
+nav > ul {
+    box-shadow: none;
+    border: 3px rgb(125, 6, 6) solid;
+    width: 500px;
+    border-radius: 30px;
+
+}
+#encontrar li {
+    list-style-type: circle;
+    color: black;
+    
+}
+footer ul {
+    margin:0;
+    background-color: orange;
+}
+footer ul li {
+    margin: 0;
+    width: 100%;
+    /*background-color: grey;*/
+    list-style-type: none;
+    
+}
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    /*border: 1px solid black;*/
+    border-radius: 0% 10% 0% 0%;
+    
+}
+.itine {
+    /*border: grey solid 1px;*/
+    padding: 10px;
+    box-shadow: -5px -5px 2px rgb(210, 204, 204);
+    border-radius: 30px;
+    width: 600px;
+
+}
+.clima a {
+    text-decoration: none;
+    color: orangered;
+}
+.cli {
+    list-style-type: none;
+}
+div ul li a {
+    text-decoration: none;
+}
+div ul li {
+    list-style-type: none;
+}
+h2, h3, h4 {
+    text-align: center;
+    color: rgb(125, 6, 6);
+}
+
+li > span {
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+div > figure {
+    padding: 5px;
+    margin: 5px 5px 20px 5px;
+    /*border: solid 1px black;*/
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+figure > img {
+    padding-left: 80px;
+}
+figcaption {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+dl > p {
+    color:rgb(125, 6, 6);
+    font-weight: bold;
+    text-align: center;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    font-size: 16px;
+}
+dl {
+    border: 1px dashed grey;
+    padding: 15px;
+}
+.infolist {
+    color:orangered;
+
+}
+iframe + a {
+    text-decoration: none;
+    color:rgb(125, 6, 6);
+    font-size: 20px;
+    padding-left: 35px;
+}
+/*p + a {
+    text-decoration: none;
+    color: orangered;
+    border: 1px dashed grey;
+
+}*/
+em a {
+    text-decoration: none;
+    color: orangered;
+}
+section {
+    border-bottom: 1px dashed rgb(125, 6, 6);
+    padding-bottom: 30px;
+}
+.clima {
+    /*border: 1px solid rgb(125, 6, 6);*/
+    border-radius: 30px;
+
+   
+}
+
+.info_cen {
+    margin: 0 auto;
+    width: 600px;
+    }
+
+.info_cen img {
+    display: block;
+    margin: 0 auto;
+    /*padding-left: 150px;*/
+    /*text-align: center;*/
+    
+}
+.img_cen {
+    display:inline;
+}
+form {
+    box-shadow: 5px 5px 5px grey;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+form p {
+    font-weight: bold;
+    color: rgb(125, 6, 6);
+}
+form input, textarea {
+    box-shadow: 2px 2px 2px grey;
+    outline: none;
+}
+.boton {
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 80px;
+    height:40px;
+    font-family: 'Roboto', sans-serif;
+    border:rgb(125, 6, 6) 1px solid;
+
+
+}
+textarea {
+    /*border-radius: 30px;*/
+    border:rgb(125, 6, 6) 1px solid;
+    resize: none;
+    
+}
+#contac {
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+    padding: 40px;
+    border-radius: 30px;
+}
+.foto_portada {
+    padding-left: 50px;
+    transition: all 1s 0s ease;
+
+}
+.foto_portada:hover {
+    transform: scale(1.1);
+}
+label {
+    display:inline-block;
+}
+
+main {
+    border: 0;
+}
+iframe {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey;
+}
+img {
+    display:inline-block;
+    border-radius: 30px;
+
+}
+ 
+
+
+
+}
+
+  /*acá empieza el css desktop----------------
+desktop-------------------------------------
+--------------------------------------------*/
+@media screen and (min-width: 1120px) {
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    /*background-image: url(../img/lateral_back.jpg);*/
+}
+main, nav, header, footer{display:block;}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/header_city.jpg");
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+}
+div h1{
+    padding-top: 20px;
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px black;
+    
+    
+}
+main {
+    background-image: url(../img/lateral_back.jpg);
+    background-repeat: repeat-y;
+    /*border: solid 1px black;*/
+    font-family: 'Roboto', sans-serif;
+}
+main > div {
+    width: 960px;
+    background-color: white;
+    margin-left: 145px;
+    padding: 40px;
+    line-height: 1.5;
+
+
+}
+
+#contenedor_columnas {
+    display: inline-block;
+    
+}
+.columna_izq, .columna_der {
+    display:inline-block;
+    width: 400px;
+    
+
+}
+.columna_der {
+    margin-left:120px;
+    vertical-align: top;
+}
+
+
+nav ul li {
+   /* background-color: rgb(54, 42, 42);*/
+    display: inline;
+    list-style-type: none;
+    margin-top:110px;
+    color: orangered;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-right: solid 2px orangered;
+    border-radius: 25% 10%;
+    
+}
+
+nav ul li a{
+    color: orangered;
+    text-decoration: none;
+    margin-left: 5px; /*para que queden a la misma distancia en todos los html*/
+}
+nav ul li a:hover {
+    border-bottom: 2px solid rgb(125, 6, 6);
+}
+nav ul li a:active {
+    background-color: black;
+    color: white;
+}
+.it {
+    background-color: rgb(125, 6, 6);
+    color: white;
+    padding: 10px; /*para que el recuadro del html activo sea más grande*/
+
+}
+#lista{
+	position:relative;
+	display:inline-block;
+}
+
+ol  {
+    display: inline-block;
+    padding: 20px 400px;
+    margin: 10px 40px ;
+    text-align: center;
+}
+.ancla a:hover {
+background-color: rgb(125, 6, 6);
+color: white;
+}
+ul {
+    text-align:center;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+
+}
+nav > ul {
+    box-shadow: none;
+    border: 3px rgb(125, 6, 6) solid;
+    width: 500px;
+    border-radius: 30px;
+
+}
+#encontrar li {
+    list-style-type: circle;
+    color: black;
+    
+}
+footer ul {
+    margin:0;
+    background-color: orange;
+}
+footer ul li {
+    margin: 0;
+    width: 100%;
+    /*background-color: grey;*/
+    list-style-type: none;
+    
+}
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    /*border: 1px solid black;*/
+    border-radius: 0% 10% 0% 0%;
+    
+}
+.itine {
+    /*border: grey solid 1px;*/
+    padding: 10px;
+    box-shadow: -5px -5px 2px rgb(210, 204, 204);
+    border-radius: 30px;
+    width: 910px;
+
+}
+.clima a {
+    text-decoration: none;
+    color: orangered;
+}
+.cli {
+    list-style-type: none;
+}
+div ul li a {
+    text-decoration: none;
+}
+div ul li {
+    list-style-type: none;
+}
+h2, h3, h4 {
+    text-align: center;
+    color: rgb(125, 6, 6);
+}
+
+li > span {
+    font-weight: bold;
+    display: block;
+    padding: 5px;
+}
+div > figure {
+    padding: 5px;
+    margin: 5px 5px 20px 5px;
+    /*border: solid 1px black;*/
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey;
+
+}
+figure > img {
+    padding-left: 80px;
+}
+figcaption {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+dl > p {
+    color:rgb(125, 6, 6);
+    font-weight: bold;
+    text-align: center;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    font-size: 16px;
+}
+dl {
+    border: 1px dashed grey;
+    padding: 15px;
+}
+.infolist {
+    color:orangered;
+
+}
+iframe + a {
+    text-decoration: none;
+    color:rgb(125, 6, 6);
+    font-size: 20px;
+    padding-left: 35px;
+}
+/*p + a {
+    text-decoration: none;
+    color: orangered;
+    border: 1px dashed grey;
+
+}*/
+em a {
+    text-decoration: none;
+    color: orangered;
+}
+section {
+    border-bottom: 1px dashed rgb(125, 6, 6);
+    padding-bottom: 30px;
+}
+.clima {
+    /*border: 1px solid rgb(125, 6, 6);*/
+    border-radius: 30px;
+
+   
+}
+
+.info_cen {
+    margin: 0 auto;
+    width: 600px;
+    padding-left: 90px;
+    padding-right: 150px;
+}
+
+.info_cen img {
+    display:inline-block;
+    padding-left: 150px;
+    text-align: center;
+    
+}
+.img_cen {
+    display:inline;
+}
+form {
+    box-shadow: 5px 5px 5px grey;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+}
+form p {
+    font-weight: bold;
+    color: rgb(125, 6, 6);
+}
+form input, textarea {
+    box-shadow: 2px 2px 2px grey;
+    outline: none;
+}
+.boton {
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 80px;
+    height:40px;
+    font-family: 'Roboto', sans-serif;
+    border:rgb(125, 6, 6) 1px solid;
+
+
+}
+textarea {
+    /*border-radius: 30px;*/
+    border:rgb(125, 6, 6) 1px solid;
+    resize: none;
+    
+}
+#contac {
+    text-align: center;
+    box-shadow: 2px 2px 2px grey;
+    padding: 40px;
+    border-radius: 30px;
+}
+.foto_portada {
+    padding-left: 50px;
+    transition: all 1s 0s ease;
+
+}
+.foto_portada:hover {
+    transform: scale(1.1);
+}
+label {
+    display:inline-block;
+}
+
+main {
+    border: 0;
+}
+iframe {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey;
+}
+img {
+    display:inline-block;
+    border-radius: 30px;
+
+}
+aside {
+    display:block;
+    position: absolute;
+    width: 170px;
+    top: 140px;
+    left: 1130px;
+    font-size: 14px;
+    background-color: rgb(85, 85, 246);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+    padding: 20px;
+}
+aside a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+aside ul {
+    background: none;
+
+}
+aside ul li {
+    padding-bottom: 30px;
+}
+#aside_itine {
+    position: fixed;
+}
+#aside_itine a:hover {
+    background-color: rgb(125, 6, 6);
+    background-blend-mode: luminosity;
+    color: white;
+}
+
+    
+
+#redes #insta a{
+    display: block;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -40px;
+text-align: center;
+transition: all 1s 0s ease;
+
+    
+}
+#redes #youtube a{
+    display: block;
+    background-image: url(../img/youtube.png);
+    background-repeat: no-repeat;
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -40px;
+    transition: all 1s 0s ease;
+
+
+
+
+}
+#redes #twitter a{
+    display: block;
+    background-image: url(../img/gorjeo.png);
+    background-repeat: no-repeat; 
+    font-size:0px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: -40px;
+    transition: all 1s 0s ease;
+
+
+
+}
+#redes #twitter a:hover {
+    transform: scale(1.2);
+}
+#redes #insta a:hover {
+    transform: scale(1.2);
+}
+#redes #youtube a:hover {
+    transform: scale(1.2);
+}
+
+.footer_retoques {
+    box-shadow: none;
+    border-radius: 0;
+}
+#gracias {
+    text-align: center;
+}
+
+#foro li {
+    font-style: italic;
+    display: block;
+    width: 850px;
+    height: 70px;
+    border: 0.5px solid grey;
+    border-radius: 30px;
+    padding: 10px;
+
+
+}
+
+.usopen {
+    padding: 25px 0px;
+    border-bottom: 1px solid rgb(125, 6, 6);
+}
+.usopen img {
+    padding: 10px 0px;
+}
+.usopen a {
+    font-weight: bold;
+    
+}
+.nomostrar {
+    display:none;
+}
+
+}
