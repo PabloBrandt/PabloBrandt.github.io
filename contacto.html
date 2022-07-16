@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otra Nueva York</title>
+    <link rel="icon" type="image/x-icon" href="img/icon_f5c44c7b651d26b1692e1acd6c235241.ico">
+
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="scripts/prefixfree.min.js"></script>
+    <script src="scripts/html5shiv.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="principal">
+        <header>
+            <div>
+                <h1>Otra Nueva York</h1>
+            </div>
+           
+        </header>
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="itinerario.html">Itinerario</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a class="it" href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    
+        <main>
+            <aside class="nodisplay">
+                <h2>Formá parte de la comunidad.</h2>
+                <ul id="redes">
+                    <li id="insta"><a href="#">insta</a></li>
+                    <li id="twitter"><a href="#">Twitter</a></li>
+                    <li id="youtube"><a href="#">YouTube</a></li>
+                </ul>
+                <img src="img/mochilero.jpg" alt="mochilero llamando a un taxi" />
+            </aside>
+            <div id="contenedor">
+                <div class="columna_izq">
+                    <h2>Contactá con nosotros.</h2>
+                    <p><strong>Vas a poder recibir información actualizada sobre los últimos eventos en la ciudad de Nueva York.</strong></p>
+                    <p>Si estás ahora mismo en la gran manzana, o viajaste recientemente, <strong>podés compartir material, fotos, info, anécdotas.</strong>
+                        El equipo de Otra Nueva York va a seleccionar entre todo el material recibido, lo que serán futuras secciones y actualizaciones.
+                    </p>
+                    <div id="contac">
+                        <p>Formá parte de la comunidad viajera.</p>
+                        <img src="img/grafiti-portada.jpg" alt="grafiti de bushwick" />
+                    </div>
+                </div>
+            
+                <div class="columna_der">
+                    <form action="gracias.html" method="POST" enctype="multipart/form-data">
+                    <p>(*) Campos obligatorios</p>
+
+                    <p>Nombre: (*)</p>
+                    <input type="text" name="nombre" required/>
+                    <p>Apellido: (*)</p>
+                    <input type="text" name="apellido" required />
+                    <p>E-mail: (*)</p>
+                    <input type="email" name="email" required />
+                    <p>Una sorprendente foto de tu viaje</p>
+                    <input type="file" name="foton" accept="image/jpeg, image/png"/>
+                    <p>Y una anécdota para compartir</p>
+                    <textarea rows="7" cols="50"></textarea>
+                    <p>Cuál de nuestras sugerencias te interesó más?</p>
+                    <label>
+                        Circuitos de Calistenia y Street Workout
+                        <input type="checkbox" name="calistenia" /> 
+                    </label>
+                    <label>
+                        Grafiteros de la gran manzana
+                        <input type="checkbox" name="grafiteros" />
+                    </label>
+                    <label>
+                        Museos y miradores. 
+                        <input type="checkbox" name="miradores" /> 
+                    </label>
+                    <label>
+                        Lugares de comida (Precios y Tipo)
+                        <input type="checkbox" name="comida" />
+                    </label>
+                        <p>Gracias por responder!</p> 
+
+
+                    <input class="boton" type="submit" value="Enviar" />
+                
+                    </form>
+                    <p class="nomostrar">Seguínos en las redes</p>
+                    <div id="redesmobile" class="nomostrar">
+                        <ul>
+                            <li id="ins"><a href="#">insta</a></li>
+                            <li id="twi"><a href="#">Twitter</a></li>
+                            <li id="you"><a href="#">YouTube</a></li>
+                        </ul>
+                    </div>   
+                </div>
+
+
+
+            </div>
+                          
+                   
+            
+        </main>
+
+        <footer>
+            <ul class="footer_retoques">
+                <li>Pablo Hildebrandt</li>
+                <li>Maquetado y Desarrollo Web</li>
+                <li>Prof. Mabel García</li>
+                <li>Final Maquetado y Desarrollo Web</li>
+                <li>| Primer Cuatrimestre | Escuela DaVinci</li>
+                <li>Mail: pablo.hildebrandt@davinci.edu.ar</li>
+
+
+            </ul>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
